@@ -3,7 +3,7 @@
 apt update &&
 apt upgrade &&
 sudo mkdir /usr/local/share/fonts/ms_fonts &&
-sudo mv ~/Downloads/FiraCode/ttf/*.ttc ~/Downloads/FiraCode/ttf/*.ttf /usr/local/share/fonts/ms_fonts/ &&
+sudo mv ~/Documentos/shell-instalation-linux/visualStudioCode/ttf/*.ttc ~/Documentos/shell-instalation-linux/visualStudioCode/ttf/*.ttf /usr/local/share/fonts/ms_fonts/ &&
 sudo chown root:staff /usr/local/share/fonts/ms_fonts -R &&
 sudo chmod 644 /usr/local/share/fonts/ms_fonts/* -R &&
 sudo chmod 755 /usr/local/share/fonts/ms_fonts &&
